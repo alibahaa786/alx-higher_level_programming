@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-def pwr(a, b):
+def pow(a, b):
     num = a ** b
     return num
