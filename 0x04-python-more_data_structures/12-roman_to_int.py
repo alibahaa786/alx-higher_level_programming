@@ -9,7 +9,7 @@ def roman_to_int(roman_string):
 
         if (i != (len(roman_string) - 1) and
                 roman[roman_string[i]] < roman[roman_string[i + 1]]):
-                ret += roman[roman_string[i]] * -1
+            ret += roman[roman_string[i]] * -1
 
         else:
             ret += roman[roman_string[i]]
